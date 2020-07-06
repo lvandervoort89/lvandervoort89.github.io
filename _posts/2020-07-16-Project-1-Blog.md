@@ -25,27 +25,20 @@ The MTA turnstile dataset is a great dataset to work with, but it is truly chall
 ### **Results**
 The bar chart below represents the stations with the highest foot traffic between April-May 2019. As seen below, many of these stations are large, central stations located in Manhattan which makes sense as to why they have the highest total traffic over the time period. 
 
-<p align="center">
-![Top 10 bar]({{ site.url }}/images/Top 10 bar post 1.JPG)
-</p>
+![Top 10 bar]({{ site.url }}/images/Top 10 bar post 1.JPG){.center}
 
 The line plot below shows traffic over a typical week in April for the busiest stations from April 1-8, 2019. From this plot, you can see a clear pattern throughout a week. Weekdays (2019-04-01 - 2019-04-06) see more traffic than weekends (2019-04-07 - 2019-04-08). Weekdays also follow a predictable schedule a spikes in the morning and evenings, which likely correlate with morning and evening work commutes. Furthermore, we see a weekend dip in most stations. 
 
-<p align="center">
-![Typical week lineplot]({{ site.url }}/images/Typical weekday traffic post 1.JPG)
-</p>
+![Typical week lineplot]({{ site.url }}/images/Typical weekday traffic post 1.JPG){.center}
 
 We then analyzed our MTA station data in relation to proximity to our sample of universities and tech companies. We used the latitude and longitude coordinates of each of the stations and calculated the distance of each to our sample of universities and tech companies. The table below shows stations that are within 1km (or roughly walking distance) to 4 or more universities or tech companies.
 
-<p align="center">
-![Table of stations near tech]({{ site.url }}/images/Tech table post 1.JPG)
-</p>
+![Table of stations near tech]({{ site.url }}/images/Tech table post 1.JPG){.center}
+
 
 When we plotted this data based on number of entries to the station overall, we noticed that 14 St-Union Square emerged as one of the busiest stations that is also in close proximity to universities and tech companies. This means that street teams placed at this stop will have a greater likelihood of finding people passionate about supporting women in technology.
 
-<p align="center">
-![Lineplot near tech]({{ site.url }}/images/Lineplot near tech.JPG)
-</p>
+![Lineplot near tech]({{ site.url }}/images/Lineplot near tech.JPG){.center}
 
 
 ### **Conclusions**
