@@ -25,19 +25,20 @@ The MTA turnstile dataset is a great dataset to work with, but it is truly chall
 **Results**
 The bar chart below represents the stations with the highest foot traffic between April-May 2019. As seen below, many of these stations are large, central stations located in Manhattan which makes sense as to why they have the highest total traffic over the time period. 
 
-[insert top 10 bar chart here]
+![Top 10 bar]({{ site.url }}/images/Top 10 bar post 1.JPG)
 
 The line plot below shows traffic over a typical week in April for the busiest stations from April 1-8, 2019. From this plot, you can see a clear pattern throughout a week. Weekdays (2019-04-01 - 2019-04-06) see more traffic than weekends (2019-04-07 - 2019-04-08). Weekdays also follow a predictable schedule a spikes in the morning and evenings, which likely correlate with morning and evening work commutes. Furthermore, we see a weekend dip in most stations. 
 
-[insert line plot of traffic over course of a week in April]
+![Typical week lineplot]({{ site.url }}/images/Typical weekday traffic post 1.JPG)
 
 We then analyzed our MTA station data in relation to proximity to our sample of universities and tech companies. We used the latitude and longitude coordinates of each of the stations and calculated the distance of each to our sample of universities and tech companies. The table below shows stations that are within 1km (or roughly walking distance) to 4 or more universities or tech companies.
 
-[insert table of universities/tech companies within 1km of stations]
+![Table of stations near tech]({{ site.url }}/images/Tech table post 1.JPG)
 
 When we plotted this data based on number of entries to the station overall, we noticed that 14 St-Union Square emerged as one of the busiest stations that is also in close proximity to universities and tech companies. This means that street teams placed at this stop will have a greater likelihood of finding people passionate about supporting women in technology.
 
 [insert line plot of stations near tech companies/universities]
+![Lineplot near tech]({{ site.url }}/images/Lineplot near tech.JPG)
 
 
 **Conclusions**
@@ -46,18 +47,18 @@ We wanted to give WTWY 3 actionable steps of how to implement this data:
 
 2. We recommend placing street teams at the following 8 stations (note that one station is on both lists).
 
-Top 5 Busiest Stations Overall:
-1. Grand Central-42 St
-2. 34 St-Herald Sq
-3. 42 St-Port Authority
-4. 14 St-Union Sq
-5. Times Sq-42 St
+> Top 5 Busiest Stations Overall:
+> 1. Grand Central-42 St
+> 2. 34 St-Herald Sq
+> 3. 42 St-Port Authority
+> 4. 14 St-Union Sq
+> 5. Times Sq-42 St
 
-Top 4 Busiest Stations Closest to Tech Companies & Universities:
-1. 14 St-Union Sq
-2. Broadway-Lafayette St.
-3. Spring St.
-4. 3 Ave.
+> Top 4 Busiest Stations Closest to Tech Companies & Universities:
+> 1. 14 St-Union Sq
+> 2. Broadway-Lafayette St.
+> 3. Spring St.
+> 4. 3 Ave.
 
 3. Finally, we believe that 14 St-Union would be one of the best stations to position your street teams on since it's within 1km of tech companies (WeWork and Spotify), 1km of universities (FIT and Cooper Union), and it's one of the busiest stations, even on weekends.
 
