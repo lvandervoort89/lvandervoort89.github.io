@@ -3,14 +3,14 @@ layout: post
 title: WTWY Street Team Analysis and Optimization
 ---
 
-**Introduction**
+###**Introduction**  
 On the first day of the Metis Data Science Bootcamp we were tasked with supporting WomenTechWomenYes (WTWY), a fictional nonprofit looking for support with optimizing street team placement at MTA stations in order to attract people to attend their annual gala. Specifically, WTWY wanted to fill their gala with individuals passionate about increasing the participation of women in technology and to build awareness and reach of their organization. The street teams will collect email addresses and those who sign up are sent free tickets to the gala.
 
 
 Our team was particularly drawn to 2 parts of the mission of WTWY: finding individuals passionate about increasing the participation of women in technology and building awareness and reach of the organization.  
 
 
-**Methodology**
+##**Methodology**. 
 We pulled MTA turnstile data for the 2 months prior to the gala (which takes place at the start of summer) and specifically used data from March 30-May 31, 2019 since we thought this would be the time when street teams would target attendees.
 
 Additionally, we then decided to use our knowledge of universities and tech companies in NYC to provide context to our data. For universities, we specifically looked at universities in NYC that had technology programs.  For tech companies, we looked at companies with the largest square footage of office space in NYC, operating under the assumption that, considering real estate costs, the larger the office space, the larger the company. To narrow both of these lists down, we chose a subset of 5 from each category. For universities, we chose Columbia, NYU, City College of New York, Fashion Institute of Technology, and Cooper Union for Advancement of Science and Art. For tech companies, we chose WeWork, Google, Facebook, Spotify, and Amazon.
