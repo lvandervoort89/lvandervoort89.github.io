@@ -35,6 +35,6 @@ Below you’ll see a list of the top topics I identified for each of the cluster
 ![Cluster_topics]({{ site.url }}/images/Cluster_topics.png)
 
 ### **Recommender**
-I used my data and results to create a Money Diary Recommender using Streamlit. The recommender has the user input their age, salary, and a mini diary entry of what they did the previous day. It then uses the users age and salary to cluster them to the original diarists, and then based on the assigned cluster, performs cosine similarity on the diaries in the cluster and returns links to 3 diaries that are most similar to the user. My hope is that people will use this recommender and be inspired or learn some ideas on how to manage their finances.
+I used my data and results to create a [Money Diary Recommender](https://polar-scrubland-83619.herokuapp.com) using Streamlit. The recommender has the user input their age, salary, and a mini diary entry of what they did the previous day. It then uses the users age and salary to cluster them to the original diarists, and then based on the assigned cluster, performs cosine similarity on the diaries in the cluster and returns links to 3 diaries that are most similar to the user. My hope is that people will use this recommender and be inspired or learn some ideas on how to manage their finances.
 
 If you haven't already, go read some [Refinery29 Money Diaries!](https://www.refinery29.com/en-us/money-diary) 
