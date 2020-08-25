@@ -3,7 +3,7 @@ permalink:           pretty
 
 # Setup
 title:               Lisa VanderVoort
-tagline:             My Data Science Blog
+tagline:             Using Data Science to Understand the World
 url:                 http://lvandervoort89.github.io
 paginate:            2
 baseurl:             ""
@@ -31,7 +31,7 @@ gems:
   - jekyll-gist
 
 # Page List
-pages_list:       
+pages_list:
   About: '/about'
   Archive: '/archive'
   Feed: '/index.html'

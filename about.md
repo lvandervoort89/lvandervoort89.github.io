@@ -3,9 +3,6 @@ layout: page
 title: About
 ---
 
-Hi there! 
-![Lisa_VanderVoort]({{ site.url }}/images/me.jpg)
-
 <p align="center">
   <img src="/images/me.jpg" />
 </p>
