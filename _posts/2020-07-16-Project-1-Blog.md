@@ -26,23 +26,23 @@ The MTA turnstile dataset is a great dataset to work with, but it is truly chall
 The bar chart below represents the stations with the highest foot traffic between April-May 2019. Many of these stations are large, central stations located in Manhattan which makes sense as to why they have the highest total traffic over the time period.
 
 ![Top 10 bar]({{ site.url }}/images/Top 10 bar post 1.JPG)
-<p align="center"> *Figure 1: Busiest MTA stations between April-May 2019* </p>
+<p align="center"> Figure 1: Busiest MTA stations between April-May 2019 </p>
 
 The line plot below shows traffic over a typical week in April for the busiest stations from April 1-8, 2019. From this plot, you can see a clear pattern throughout a week. Weekdays (2019-04-01 - 2019-04-06) see more traffic than weekends (2019-04-07 - 2019-04-08). Weekdays also follow a predictable schedule; traffic spikes in the morning and evenings, which likely correlate with morning and evening work commutes. Furthermore, we see a weekend dip in most stations.
 
 ![Typical week lineplot]({{ site.url }}/images/Typical weekday traffic post 1.JPG)
-<p align="center"> *Figure 2: Line plot showing typical weekday traffic* </p>
+<p align="center"> Figure 2: Line plot showing typical weekday traffic </p>
 
 We then analyzed our MTA station data in relation to proximity to our sample of universities and tech companies. We used the latitude and longitude coordinates of each of the stations and calculated the distance of each to our sample of universities and tech companies. The table below shows stations that are within 1km (or roughly walking distance) to 4 or more universities or tech companies.
 
 ![Table of stations near tech]({{ site.url }}/images/Tech_table_post_1.png)
-<p align="center"> *Figure 3: List of stations closest to major tech companies* </p>
+<p align="center"> Figure 3: List of stations closest to major tech companies </p>
 
 
 When we plotted this data based on number of entries to the station overall, we noticed that 14 St-Union Square emerged as one of the busiest stations that is also in close proximity to universities and tech companies. This means that street teams placed at this stop will have a greater likelihood of finding people passionate about supporting women in technology.
 
 ![Lineplot near tech]({{ site.url }}/images/Lineplot_near_tech.png)
-<p align="center"> *Figure 4: Daily traffic for busiest stations near tech companies* </p>
+<p align="center"> Figure 4: Daily traffic for busiest stations near tech companies </p>
 
 ### **Conclusions**
 We wanted to give WTWY 3 actionable steps of how to implement this data:

@@ -20,22 +20,22 @@ With the data collected, I used Natural Language Processing (NLP) to analyze how
 *Topic Modeling on All Diarists*  
 First, I performed topic modeling on all of the diarists. Through a lot of trial and error, I found topics and words that made the most sense using Non-negative Matrix Factorization (NMF) with noun part of speech tagging and Count Vectorizer.  The diary entries could be categorized into 8 topics: friends/socializing, cooking/food, work, dogs, self-care, family, husband, and baby. I thought these results made a lot of sense given that millennials are 24-39! I was eager to do further analysis and gain more insights into the different types of millennials in the diaries.
 ![Top_10_words_all_diarists]({{ site.url }}/images/top_10_all_diarists.png)
-<p align="center"> *Figure 1: Top 10 words in each topic for all diarists* </p>
+<p align="center"> Figure 1: Top 10 words in each topic for all diarists </p>
 
 *Clustering*  
 I then decided to do clustering on the diarist metadata to learn about the different types of millennials and then do topic modeling on the individual clusters to gain insight into the nuances of the daily lives of the diarists. I performed K-means clustering on the age and salary metadata and was able to break the diarists into 5 groups.
 <p align="center"> <img src="/images/clustering.png" /> </p>
-<p align="center"> *Figure 2: The 5 clusters and centroids for each* </p>
+<p align="center"> Figure 2: The 5 clusters and centroids for each </p>
 
 I identified the clusters as early 20s entry-level earners, late 20s average earners, late 20s high earners, mid 30s average earners, and mid 30s high earners.   
 ![Cluster_metadata]({{ site.url }}/images/Cluster_metadata.png)
-<p align="center"> *Figure 3: Demographic information for each of the 5 clusters* </p>
+<p align="center"> Figure 3: Demographic information for each of the 5 clusters </p>
 
 *Top Modeling on Clusters*   
 Now that I had each of my clusters, I performed additional topic modeling on them. Once again, I found the most success with Non-negative Matrix Factorization (NMF) with noun part of speech tagging and Count Vectorizer. I found some really interesting insights in the topic modeling for each of these clusters! Many of the topics the early 20s entry-level earners wrote about included self-discovery and self-care.  Comparing the late 20s clusters, the average earners wrote more about immediate family and home, while high earners wrote more about socializing and self-care. Lastly, both mid 30s clusters wrote a lot about family, but the high earners included more about self-care.     
 
 ![Cluster_topics]({{ site.url }}/images/Cluster_topics.png)
-<p align="center"> *Figure 4: Identified topics for each of the 5 clusters* </p>
+<p align="center"> Figure 4: Identified topics for each of the 5 clusters </p>
 
 ### **Recommender**
 I used my data and results to create a [Money Diary Recommender](https://polar-scrubland-83619.herokuapp.com) using Streamlit. The recommender has the user input their age, salary, and a mini diary entry of what they did the previous day. It then uses the user's age and salary to cluster them to the original diarists, and then based on the assigned cluster, performs cosine similarity on the diaries in the cluster and returns links to 3 diaries that are most similar to the user. My hope is that people will use this recommender and be inspired or learn some ideas on how to manage their finances.
