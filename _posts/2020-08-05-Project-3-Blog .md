@@ -28,7 +28,7 @@ I tried a number of models to optimize for ROC/AUC. Ultimately, I chose a Logist
 <p align="center"> Figure 3: A logistic regression model was chosen because it provided the highest ROC AUC score and allowed for interpretation of coefficients </p>
 
 I was able to optimize ROC/AUC at 0.79 which means the model was able to account for some of the separation between match or not (even though accuracy performed on par with what would be expected from a dummy model). I tried various over/under sampling methods and SMOTE, but found this didn't improve my results and added unnecessary complexity. I chose to optimize for ROC AUC for this model, so those who might potentially use the model in the future have the ability to choose their tolerance to false positives (i.e. predict a match, but it doesn't happen) because people have their own dating baggage and therefore, might want to change their tolerance levels for disappointing results.
-![Match ROC AUC]({{ site.url }}/images/match_roc_auc.png)
+<p align="center"> <img src="/images/match_roc_auc.png" /> </p>
 <p align="center"> Figure 4: The ROC AUC graph for the final model's performance </p>
 
 
