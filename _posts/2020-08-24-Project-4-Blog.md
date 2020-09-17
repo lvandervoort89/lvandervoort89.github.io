@@ -41,3 +41,5 @@ Now that I had each of my clusters, I performed additional topic modeling on the
 I used my data and results to create a [Money Diary Recommender](https://polar-scrubland-83619.herokuapp.com) using Streamlit. The recommender has the user input their age, salary, and a mini diary entry of what they did the previous day. It then uses the user's age and salary to cluster them to the original diarists, and then based on the assigned cluster, performs cosine similarity on the diaries in the cluster and returns links to 3 diaries that are most similar to the user. My hope is that people will use this recommender and be inspired or learn some ideas on how to manage their finances.
 
 If you haven't already, go read some [Refinery29 Money Diaries!](https://www.refinery29.com/en-us/money-diary)
+
+You can check out my code for my project on my [Github.](https://github.com/lvandervoort89/analyzing_how_millennial_women_spend_time_and_money)

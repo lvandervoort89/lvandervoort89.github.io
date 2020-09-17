@@ -2,8 +2,7 @@
 layout: post
 title: Predicting Love at First 4 Minutes
 ---
-
-### **Introduction**  
+ 
 Early into quarantine this year, I found myself addicted to the Netflix show, *Love is Blind*. The basic premise of the show is that a group of men and women participate in a "pod" experiment where they "date" with the hopes of getting engaged, without ever seeing the person! It's wild and if you haven't watched it yet, I highly recommend binging it!
 
 Upon further reflection, I realized the concept of love at first sight is saturated in pop culture television and movies. Shows like *The Bachelor*, *The Bachelorette*, and *Married at First Sight* all capitalize on our fascination with the topic. I began to wonder if I could predict love at first sight and if so, what might be good predictors.
@@ -63,4 +62,4 @@ If there's one thing I took away from this, it's that predicting human behavior 
 
 However, if you are dating and want some tangible conclusions from my results, I want to highlight the importance of first impressions! The more similar yours and a date's perception of each other, the greater your odds of matching with that person. Additionally, the more you initially like a person, the greater your odds of matching are.
 
-You can check out my code on [GitHub.](https://github.com/lvandervoort89?tab=repositories)
+You can check out my code for my project on my [Github.](https://github.com/lvandervoort89/predicting_love_at_first_four_minutes)
