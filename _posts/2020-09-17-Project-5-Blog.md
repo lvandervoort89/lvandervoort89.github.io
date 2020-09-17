@@ -42,7 +42,6 @@ Likewise, my second recommendation is to reduce the number of bikes available at
 My third recommendation to Divvy is to increase bike availability on weekends since they’re uniquely popular during Covid-19.
 ![covid_by_week]({{ site.url }}/images/covid_by_week.png
 <p align="center"> Figure 8: Unique weekend popularity during Covid-19</p>
-[graph of weekend popularity]
 
 ### **Tableau Visualizations**
 I created a full interactive Tableau Story that you can checkout on my Github. It includes bike share demand by station for each of Chicago's phases of reopening.
