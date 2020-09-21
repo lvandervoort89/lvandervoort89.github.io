@@ -3,4 +3,5 @@ layout: page
 title: Resume
 ---
 
-![lisa_vandervoort_resume]({{ site.url }}/images/lisa_vandervoort_resume_september_2020)
+
+<iframe src="/images/lisa_vandervoort_resume_september_2020.pdf" width="100%" height="600px"> </iframe>
